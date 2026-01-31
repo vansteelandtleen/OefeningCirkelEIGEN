@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <input type="text" id="straal" />
+        <input type="button" id="bereken" />
+        <textarea id="resultaat" />
+
+    </form>
+    <p>
+        <!-- Multi-statement block -->
+        @{
+        var greeting = "Welcome to our site!";
+        var weekDay = DateTime.Now.DayOfWeek;
+        var greetingMessage = greeting + " Here in Huston it is: " + weekDay;
+        }
+    <p>The greeting is: @greetingMessage</p>
+    </p>
+</body>
+</html>
